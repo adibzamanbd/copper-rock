@@ -9,6 +9,34 @@ body {
   font-family: "Forum", serif;
 }
 
+/* primary text start  */
+.primary-text {
+  text-decoration: none;
+  color: #666666;
+  font-size: 21px;
+  margin-bottom: 6%;
+}
+/* primary text end  */
+
+/* primary button satrt  */
+.primary-btn {
+  border: none;
+  background-color: #fff;
+  font-size: 23px;
+  text-decoration: none;
+  color: #000;
+}
+/* primary button end  */
+
+/* regular text start  */
+.regular-text {
+  font-size: 5rem;
+  padding: 0 4%;
+  padding-bottom: 2%;
+  font-weight: 400;
+}
+/* regular text end  */
+
 /* header start  */
 header {
   width: 100%;
@@ -32,7 +60,7 @@ nav {
 /* nav end  */
 
 /* nav logo start  */
-.logo h1 {
+.logo h2 {
   font-size: 1.7rem;
   font-weight: 600;
 }
@@ -52,16 +80,7 @@ nav {
 }
 /* link end  */
 
-/* hero title start  */
-.hero h1 {
-  font-size: 5rem;
-  padding: 0 4%;
-  padding-bottom: 2%;
-  font-weight: 400;
-}
-/* hero section end  */
-
-/* banner start  */
+/* banner  start  */
 .banner {
   padding: 0 4%;
   width: 100%;
@@ -83,17 +102,35 @@ nav {
 .text {
   width: 30%;
 }
-.text p {
-  text-decoration: none;
-  color: #666666;
-  font-size: 21px;
-  margin-bottom: 6%;
-}
-.text a {
-  border: none;
-  background-color: #fff;
-  font-size: 23px;
-  text-decoration: none;
-  color: #000;
-}
+
 /* banner text end  */
+
+/* main start  */
+.main {
+  padding: 6% 0;
+  padding-left: 4%;
+}
+/* main end  */
+
+/* feature start  */
+.feature {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-image: url(../images/background.svg);
+  background-repeat: no-repeat;
+  background-position:  right top;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+/* feature end  */
+
+/* main regular text start  */
+.main .regular-text {
+  text-align: center;
+  margin-bottom: 2%;
+}
+/* main regular text end  */
