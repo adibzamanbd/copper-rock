@@ -37,6 +37,14 @@ body {
 }
 /* regular text end  */
 
+/* regular title start  */
+.regular-title {
+  font-size: 3rem;
+  margin-bottom: 3%;
+  font-weight: 400;
+}
+/* regular title end  */
+
 /* header start  */
 header {
   width: 100%;
@@ -119,7 +127,7 @@ nav {
   background-color: #fff;
   background-image: url(../images/background.svg);
   background-repeat: no-repeat;
-  background-position:  right top;
+  background-position: right top;
   display: flex;
   justify-content: space-between;
   align-items: center;
